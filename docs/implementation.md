@@ -20,13 +20,14 @@
 
 ### Image Analysis Pipeline
 
-```def analyze_image_with_cv(self, uploaded_file):
-```
-   # 1. Convert to OpenCV format
-   # 2. Assess roof condition (sharpness, brightness, contrast)
-   # 3. Estimate usable area (contour detection)
-   # 4. Calculate system size (pixel-to-meter conversion)
-   # 5. Generate confidence score
+   ```
+   def analyze_image_with_cv(self, uploaded_file):
+   ```
+   1. Convert to OpenCV format
+   2. Assess roof condition (sharpness, brightness, contrast)
+   3. Estimate usable area (contour detection)
+   4. Calculate system size (pixel-to-meter conversion)
+   5. Generate confidence score
 
 
 ### Roof Condition Assessment
