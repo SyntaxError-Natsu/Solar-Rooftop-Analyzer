@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-05-27 07:15:40",
+  "performance": {
+    "total_time": 20.15,
+    "confidence": 95
+  },
+  "analysis": {
+    "roof_condition": "excellent",
+    "usable_area_percent": 90,
+    "system_size_kw": 10.1,
+    "confidence": 95,
+    "notes": "Excellent roof, 90% usable area, 95% confidence",
+    "analysis_time": 0.02,
+    "image_size": "600x400",
+    "image_metrics": {
+      "brightness": 154.3,
+      "contrast": 63.8,
+      "sharpness": 1515.7,
+      "roof_area_m2": 39.5
+    },
+    "shading_assessment": "moderate",
+    "roof_orientation": "good",
+    "total_analysis_time": 20.15
+  },
+  "metrics": {
+    "system_kw": 10.1,
+    "panels": 25,
+    "annual_kwh": 14544,
+    "gross_cost": 2020000,
+    "net_cost": 1414000,
+    "annual_savings": 116352,
+    "payback_years": 12.2,
+    "lifetime_savings": 1494800,
+    "co2_offset": 5.8
+  },
+  "currency": "INR"
+}

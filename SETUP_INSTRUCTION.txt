@@ -1,0 +1,67 @@
+SOLAR ROOFTOP ANALYZER - LOCAL SETUP GUIDE
+
+SYSTEM REQUIREMENTS:
+- Python 3.8 or higher
+- 4GB RAM minimum
+- Internet connection for AI features
+- 500MB free disk space
+
+STEP-BY-STEP SETUP:
+
+1. EXTRACT FILES
+   - Extract this ZIP file to a folder
+   - Open terminal/command prompt in that folder
+
+2. INSTALL PYTHON DEPENDENCIES
+   Run: pip install -r requirements.txt
+   
+   If you get errors, try:
+   - pip install --upgrade pip
+   - pip install -r requirements.txt --no-cache-dir
+
+3. CONFIGURE API KEY (OPTIONAL)
+   - Copy .env.example to .env
+   - Get free API key from https://openrouter.ai/
+   - Edit .env file and add your key
+   - Note: Computer Vision works without API key
+
+4. RUN THE APPLICATION
+   Run: streamlit run app.py
+   
+   The app will open in your browser at:
+   http://localhost:8501
+
+5. TEST THE APPLICATION
+   - Upload sample images from examples/ folder
+   - Try both CV-only and CV+AI modes
+   - Download analysis reports
+
+TROUBLESHOOTING:
+
+Problem: "streamlit command not found"
+Solution: pip install streamlit
+
+Problem: "OpenCV import error"
+Solution: pip install opencv-python
+
+Problem: "API Error 402"
+Solution: You've exceeded free daily limit (50 requests)
+
+Problem: Port 8501 already in use
+Solution: Streamlit will suggest another port automatically
+
+FEATURES TO TEST:
+- Upload different rooftop images
+- Compare CV-only vs CV+AI results
+- Download JSON reports
+- Check performance metrics
+- Test with/without API key
+
+SAMPLE USAGE:
+1. Upload examples/mumbai_residential.jpg
+2. Select "Qwen 2.5 VL 72B" model
+3. Enable "Use AI Enhancement"
+4. Click "Analyze with Computer Vision"
+5. Review results and download report
+
+For support: Priyanshu.pp8@gmail.com
